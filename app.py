@@ -25,10 +25,15 @@ print(z) """
 """ x = "test"
 print(f"hello {x}")  """
 
-temp = input("what is the temperature?")
+""" temp = input("what is the temperature?")
 if temp > 68:
     print('warm')
 elif temp == 68:
     print('perfect')
 else:
-    print('cold')
+    print('cold') """
+number = input("what is number")
+if number * 24 == int:  
+    print("even")
+elif number * 2 == float:
+    print("odd")
