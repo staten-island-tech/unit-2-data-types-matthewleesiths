@@ -32,8 +32,25 @@ elif temp == 68:
     print('perfect')
 else:
     print('cold') """
-number = input("what is number")
-if number * 24 == int:  
+
+""" number = input("what is number")
+if int(number) % 2 == 0:
     print("even")
-elif number * 2 == float:
-    print("odd")
+else:
+    print("odd") """
+
+bill = input("how much was bill?")
+print(bill)
+tip = input("how good was the service? bad, okay, good , or great?")
+if tip == ("bad"):
+    print("0% tip")
+    print (int(bill * 1))
+elif tip ==("okay"):
+    print("15% tip")
+    print (int(bill * 1.15))
+elif tip ==("good"):
+    print("20% tip")
+    print (int(bill * 1.2))
+elif tip ==("great"):
+    print("25% tip")
+    print (int(bill * 1.25))
