@@ -39,18 +39,52 @@ if int(number) % 2 == 0:
 else:
     print("odd") """
 
-bill = input("how much was bill?")
+""" bill = input("how much was bill?")
 print(bill)
 tip = input("how good was the service? bad, okay, good , or great?")
 if tip == ("bad"):
     print("0% tip")
-    print (int(bill * 1))
+    print(int(bill) * 1)
 elif tip ==("okay"):
     print("15% tip")
-    print (int(bill * 1.15))
+    print(int(bill) * 1.15)
 elif tip ==("good"):
     print("20% tip")
-    print (int(bill * 1.2))
+    print(int(bill) * 1.2)
 elif tip ==("great"):
     print("25% tip")
-    print (int(bill * 1.25))
+    print(int(bill) * 1.25)
+else:
+    print("try again") """
+
+""" bill = int(input("how much was bill?"))
+print(bill)
+tip = input("how good was the service? bad, okay, good , or great?")
+if tip == ("bad"):
+    print("0% tip")
+    print(bill * 1)
+elif tip ==("okay"):
+    print("15% tip")
+    print(bill * 1.15)
+elif tip ==("good"):
+    print("20% tip")
+    print(bill * 1.2)
+elif tip ==("great"):
+    print("25% tip")
+    print(bill * 1.25)
+else:
+    print("try again") """
+
+""" sentence = input("give me a sentence")
+words = sentence.split( )
+print(words)
+print() """
+
+""" x = "this is a thing"
+y= x.split( )
+z = y[0]
+print(y)
+print(z)
+ """
+
+
