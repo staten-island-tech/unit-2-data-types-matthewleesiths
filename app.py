@@ -75,10 +75,12 @@ elif tip ==("great"):
 else:
     print("try again") """
 
-""" sentence = input("give me a sentence")
+
+ 
+sentence = input("give me a sentence")
 words = sentence.split( )
 print(words)
-print() """
+
 
 """ x = "this is a thing"
 y= x.split( )
@@ -86,5 +88,3 @@ z = y[0]
 print(y)
 print(z)
  """
-
-
