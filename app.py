@@ -75,16 +75,20 @@ elif tip ==("great"):
 else:
     print("try again") """
 
-
- 
-sentence = input("give me a sentence")
+""" sentence = input("give me a sentence")
 words = sentence.split( )
-print(words)
-
+wordnumber = len(words)
+print(wordnumber) """
 
 """ x = "this is a thing"
 y= x.split( )
 z = y[0]
 print(y)
 print(z)
+ """
+
+""" number = (int(input("give me a number")))
+for i in range(1, number + 1):
+    if number % i == 0:
+        print(i)
  """
