@@ -87,8 +87,15 @@ print(y)
 print(z)
  """
 
-""" number = (int(input("give me a number")))
-for i in range(1, number + 1):
-    if number % i == 0:
-        print(i)
- """
+number = (int(input("give me a number")))
+for num in range(1, number + 1):
+#     if number % num == 0:
+        # print(num)
+
+    twonumber = (int(input("give me another number")))
+# for twonum in range(1, twonumber + 1):
+#     if twonumber % twonum == 0:
+        # print(twonum)
+
+if number % num == 0 and twonumber % num == 0:
+    print(num)
