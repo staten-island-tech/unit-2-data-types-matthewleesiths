@@ -87,15 +87,30 @@ print(y)
 print(z)
  """
 
-number = (int(input("give me a number")))
-for num in range(1, number + 1):
-#     if number % num == 0:
-        # print(num)
+""" number = (int(input("give me a number")))
+for i in range(1, number + 1):
+    if number % i == 0:
+        print(i)
 
-    twonumber = (int(input("give me another number")))
-# for twonum in range(1, twonumber + 1):
-#     if twonumber % twonum == 0:
-        # print(twonum)
+number = (int(input("give me another number")))
+for i in range(1, number + 1):
+    if number % i == 0:
+        print(i) """
 
-if number % num == 0 and twonumber % num == 0:
-    print(num)
+
+x = (int(input("give me a number")))
+y = (int(input("give me another number")))
+def greatest(x, y):
+    if x > y:
+        num = y
+    else:
+        num = x
+    for i in range(1, num+1):
+        if((x % i == 0) and (y % i == 0)):
+            factor = i
+    return factor
+print("gcf is", greatest(x,y))
+# answer = 54
+# answer2 = 24
+# answer = input("give me a number")
+# answer2 = input("give me another number")
